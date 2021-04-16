@@ -62,16 +62,7 @@
 
                 <!-- administrativo do cliente -->
                 <ul class="col-md-3 nav d-flex align-items-center justify-content-around">
-                    <li class="nav-item">
-                        <a href="#">
-                            <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-person-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd"
-                  d="M3 14s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1H3zm5-6a3 3 0 1 0 0-6 3 3 0 0 0 0 6z" />
-              </svg> Entrar
-                        </a>
-                    </li>
-
-                    <li class="nav-item">
+                    <li id="Carrinho" class="nav-item">
                         <span class="notificacao d-flex align-items-center justify-content-center">3</span>
                         <a href="#">
                             <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-cart-fill" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
@@ -79,7 +70,10 @@
                   d="M0 1.5A.5.5 0 0 1 .5 1H2a.5.5 0 0 1 .485.379L2.89 3H14.5a.5.5 0 0 1 .491.592l-1.5 8A.5.5 0 0 1 13 12H4a.5.5 0 0 1-.491-.408L2.01 3.607 1.61 2H.5a.5.5 0 0 1-.5-.5zM5 12a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm7 0a2 2 0 1 0 0 4 2 2 0 0 0 0-4zm-7 1a1 1 0 1 0 0 2 1 1 0 0 0 0-2zm7 0a1 1 0 1 0 0 2 1 1 0 0 0 0-2z" />
               </svg> Carrinho
                         </a>
+
+           
                     </li>
+                    
                 </ul>
                 <!-- end administrativo do cliente -->
 
@@ -91,113 +85,21 @@
     <!-- end header -->
 
     <!-- menu do site -->
-    <nav class="container-fluid nav-produtos">
-        <!-- container -->
-        <section class="container">
-            <!-- menu -->
-            <ul class="nav">
-                <!-- lista de itens -->
-                <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-          </svg> Consoles
 
-                    <!-- submenu -->
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a href="#">
-                Xbox One
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                PS5
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                PS4
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                PC
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                Nintendo Switch
-              </a>
-                        </li>
-                    </ul>
-                    <!-- end submenu -->
-                </li>
-
-                <!-- lista de itens -->
-                <li class="col-xl-2 col-lg-3 col-md-12 nav-item d-flex align-items-center">
-                    <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-list" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
-            <path fill-rule="evenodd"
-              d="M2.5 11.5A.5.5 0 0 1 3 11h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 7h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4A.5.5 0 0 1 3 3h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
-          </svg> Categorias
-
-                    <!-- submenu -->
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                            <a href="#">
-                Corrida
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                Ação
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                Terror
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                Aventura
-              </a>
-                        </li>
-
-                        <li class="nav-item">
-                            <a href="#">
-                RPG
-              </a>
-                        </li>
-                    </ul>
-                    <!-- end submenu -->
-                </li>
-            </ul>
-            <!-- menu -->
-        </section>
-        <!-- end container -->
-    </nav>
     <!-- end menu do site -->
 
     <!-- main -->
-    <main>
+    <main id="telaDeProduto">
         <!-- banners promocionais rotativos  -->
-        <section id="banners-promocionais" class="container carousel slide" data-ride="carousel">
+        <section id="banners-promocionais" class="container carousel slide mt-5" data-ride="carousel">
             <!-- imagens -->
             <article class="carousel-inner">
                 <figure class="carousel-item active">
-                    <img src="./assets/images/banner-1.jpg" class="d-block w-100" alt="Banner Promocional lançamento verão">
+                    <img src="./assets/images/banner-1.jpg" class="img-fluid" alt="Banner Promocional lançamento verão">
                 </figure>
 
                 <figure class="carousel-item">
-                    <img src="./assets/images/banner-2.jpg" class="d-block w-100" alt="Banner Promocional diversos itens da loja">
+                    <img src="./assets/images/banner-2.jpg" class="img-fluid" alt="Banner Promocional diversos itens da loja">
                 </figure>
             </article>
 
@@ -220,7 +122,7 @@
             <section class="row">
                 <!-- banner -->
                 <article class="col-md-6">
-                    <div class="banners-promocionais-statico-12x d-flex align-items-center">
+                    <div class="banners-promocionais-statico-12x d-flex align-items-center img-fluid">
 
 
 
@@ -545,10 +447,50 @@
         </section>
         <!-- end container produtos -->
     </main>
+
+    <div id="loading" class="loading">Loading&#8230;</div>
+
+    <div id="carrinhoFinalizar" class="mt-5">
+        <table class="table table-bordered">
+            <thead>
+              <tr>
+                <th scope="col">Cod. Produto</th>
+                <th scope="col">Imagem</th>
+                <th scope="col">Nome</th>
+                <th scope="col">Preço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td><img id="imagemAJuste" src="./assets/images/GTA_V.jpg" class="imagemCarrinho"></td>
+                <td>GTA V</td>
+                <td>R$ 59,90</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td><img id="imagemAJuste" src="./assets/images/GTA_V.jpg" class="imagemCarrinho"></td>
+                <td>BloodBorne</td>
+                <td>R$ 99,90</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td><img id="imagemAJuste" src="./assets/images/Fifa21.jpg" class="imagemCarrinho"> </td>
+                <td>Fifa 21</td>
+                <td>R$ 299,90</td>
+              </tr>
+              <tr>
+                <td colspan="3">Total</td>
+                <td>R$ 459,70</td>
+              </tr>
+            </tbody>
+          </table>
+    </div>
+
     <!-- end main -->
 
     <!-- Footer -->
-    <footer class="container-fluid">
+    <footer id="footer" class="container-fluid">
         <!-- container -->
         <section class="container">
             <!-- menus -->
@@ -656,6 +598,8 @@
     <script src="./assets/js/jquery.js"></script>
     <script src="./assets/js/popper.js"></script>
     <script src="./assets/js/bootstrap.js"></script>
+
+    <script src="./assets/js/main.js"></script>
 </body>
 
 </html>
