@@ -309,11 +309,13 @@ footer ul li.ellipsis {
 }
 
 html {
+    
     font-family: sans-serif;
     line-height: 1.15;
     -webkit-text-size-adjust: 100%;
     -webkit-tap-highlight-color: transparent;
 }
+
 
 article,
 aside,
@@ -11309,3 +11311,7 @@ img {
       transform: rotate(360deg);
     }
   }
+
+.marginBottomTable {
+    margin-bottom: 50px;
+}
