@@ -205,12 +205,14 @@ nav.nav-produtos ul.nav li ul.nav li {
 .produtos-compra .produtos-preco form {
     font-size: 16px;
 }
-
-footer {
+footer{
     background: black;
     padding: 25px 0;
     color: #FFF;
-}
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    }
 
 footer a {
     color: #FFF;
@@ -11315,3 +11317,9 @@ img {
 .marginBottomTable {
     margin-bottom: 50px;
 }
+
+@media (min-width: 1919px) {
+    .marginBottomTable {
+        margin-bottom: 340px;
+    }
+ }
