@@ -11195,6 +11195,7 @@ img {
     width: 60px;
 }
 /* Absolute Center Spinner */
+/*INICIO SPINNER*/
 .loading {
     position: fixed;
     z-index: 999;
@@ -11313,6 +11314,7 @@ img {
       transform: rotate(360deg);
     }
   }
+  /*FIM SPINNER*/
 
 .marginBottomTable {
     margin-bottom: 50px;
